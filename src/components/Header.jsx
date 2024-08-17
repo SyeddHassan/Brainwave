@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { brainwave } from "../assets";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -7,11 +8,29 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { navigation } from "../constants";
 
 import Button from "./Button";
+import { HamburgerMenu } from "./design/Header";
 
 const Header = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const pathname = useLocation();
+
+  const toggleNavigation = () => {
+    if (openNavigation) {
+      setOpenNavigation(false);
+      enablePageScroll();
+    } else {
+      setOpenNavigation(true);
+      disablePageScroll();
+    }
+  };
+
+  const handleClick = () => {
+    if (!openNavigation) return;
+
+    enablePageScroll();
+    setOpenNavigation(false);
+  };
 
   return (
     <div
@@ -34,7 +53,7 @@ const Header = () => {
               <a
                 key={item.id}
                 href={item.url}
-                // onClick={handleClick}
+                onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
@@ -48,7 +67,7 @@ const Header = () => {
             ))}
           </div>
 
-          {/* <HamburgerMenu /> */}
+          <HamburgerMenu />
         </nav>
 
         <a
@@ -64,7 +83,7 @@ const Header = () => {
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
-          // onClick={toggleNavigation}
+          onClick={toggleNavigation}
         >
           <MenuSvg openNavigation={openNavigation} />
         </Button>

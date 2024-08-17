@@ -2,8 +2,11 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { brainwave } from "../assets";
+import MenuSvg from "../assets/svg/MenuSvg";
 
 import { navigation } from "../constants";
+
+import Button from "./Button";
 
 const Header = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
@@ -47,6 +50,24 @@ const Header = () => {
 
           {/* <HamburgerMenu /> */}
         </nav>
+
+        <a
+          href="#signup"
+          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        >
+          New account
+        </a>
+        <Button className="hidden lg:flex" href="#login">
+          Sign in
+        </Button>
+
+        <Button
+          className="ml-auto lg:hidden"
+          px="px-3"
+          // onClick={toggleNavigation}
+        >
+          <MenuSvg openNavigation={openNavigation} />
+        </Button>
       </div>
     </div>
   );

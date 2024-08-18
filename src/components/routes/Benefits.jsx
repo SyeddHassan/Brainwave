@@ -1,11 +1,11 @@
-import Heading from "./Heading";
-import Section from "./Section";
+import Heading from "../partials/Heading";
+import Section from "../partials/Section";
 
-import { benefits } from "../constants";
+import { benefits } from "../../constants";
 
-import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
+import Arrow from "../../assets/svg/Arrow";
+import { GradientLight } from "../design/Benefits";
+import ClipPath from "../../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (

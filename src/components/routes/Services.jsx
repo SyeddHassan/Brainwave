@@ -1,16 +1,16 @@
-import Section from "./Section";
-import Heading from "./Heading";
-import Generating from "./Generating";
+import Section from "../partials/Section";
+import Heading from "../partials/Heading";
+import Generating from "../partials/Generating";
 
-import { service1, service2, service3, check } from "../assets";
+import { service1, service2, service3, check } from "../../assets";
 import {
   PhotoChatMessage,
   Gradient,
   VideoBar,
   VideoChatMessage,
-} from "./design/Services";
+} from "../design/Services";
 
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServices, brainwaveServicesIcons } from "../../constants";
 
 const Services = () => {
   return (

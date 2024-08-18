@@ -1,10 +1,10 @@
-import { brainwaveSymbol, check } from "../assets";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { brainwaveSymbol, check } from "../../assets";
+import { LeftCurve, RightCurve } from "../design/Collaboration";
 
-import { collabApps, collabContent, collabText } from "../constants";
+import { collabApps, collabContent, collabText } from "../../constants";
 
-import Button from "./Button";
-import Section from "./Section";
+import Button from "../partials/Button";
+import Section from "../partials/Section";
 
 const Collaboration = () => {
   return (

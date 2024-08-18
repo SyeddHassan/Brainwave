@@ -1,13 +1,13 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
-import Services from "./components/Services";
-import Pricing from "./components/Pricing";
-import Roadmap from "./components/Roadmap";
-import Footer from "./components/Footer";
+import Header from "./components/layouts/Header";
+import Hero from "./components/routes/Hero";
+import Benefits from "./components/routes/Benefits";
+import Collaboration from "./components/routes/Collaboration";
+import Services from "./components/routes/Services";
+import Pricing from "./components/routes/Pricing";
+import Roadmap from "./components/routes/Roadmap";
+import Footer from "./components/layouts/Footer";
 
 const App = () => {
   return (

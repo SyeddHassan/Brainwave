@@ -2,13 +2,13 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { brainwave } from "../assets";
-import MenuSvg from "../assets/svg/MenuSvg";
+import { brainwave } from "../../assets";
+import MenuSvg from "../../assets/svg/MenuSvg";
 
-import { navigation } from "../constants";
+import { navigation } from "../../constants";
 
-import Button from "./Button";
-import { HamburgerMenu } from "./design/Header";
+import Button from "../partials/Button";
+import { HamburgerMenu } from "../design/Header";
 
 const Header = () => {
   const [openNavigation, setOpenNavigation] = useState(false);

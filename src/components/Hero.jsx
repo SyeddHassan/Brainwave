@@ -9,7 +9,7 @@ import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Generating from "./Generating";
-// import Notification from "./Notification";
+import Notification from "./Notification";
 // import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
@@ -73,12 +73,12 @@ const Hero = () => {
                   </ul>
                 </ScrollParallax>
 
-                {/* <ScrollParallax isAbsolutelyPositioned>
+                <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
                     title="Code generation"
                   />
-                </ScrollParallax> */}
+                </ScrollParallax>
               </div>
             </div>
 

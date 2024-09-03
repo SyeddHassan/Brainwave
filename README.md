@@ -33,12 +33,7 @@ Brainwave is a modern UI/UX project designed to showcase sleek and responsive fr
 - **Bento Box Layouts**: Offer a clean and organized presentation of information, optimizing space.
 - **Mobile-First Design**: Ensures seamless performance and appearance across all devices.
 
-## Scripts
-
-- `dev`: Start the development server using Vite.
-- `build`: Build the project for production.
-- `lint`: Run ESLint to check for code quality and errors.
-- `preview`: Preview the production build locally.
+---
 
 ## Contributing
 

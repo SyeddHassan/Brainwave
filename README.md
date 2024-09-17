@@ -21,11 +21,14 @@ Brainwave is a modern UI/UX project designed to showcase sleek and responsive fr
 
 ![Figma Design](https://media.licdn.com/dms/image/D4E22AQEfFZUgteWkwg/feedshare-shrink_1280/0/1724009977281?e=1726704000&v=beta&t=3fqDGnqEQP3VsBZ9pYeXM9AEHhQ-xOaBhZbo1i_-SNk)
 
-### Output
+### Figms Design Conversion
 
 ![Brainwave - Landing page (desktop view)](https://media.licdn.com/dms/image/D4E22AQG4X9HBQ8aHsA/feedshare-shrink_2048_1536/0/1724009977390?e=1726704000&v=beta&t=lS_Flynm2nYnQKE9ok6XnUEc5MAwKxnxiONGsy-vU0M)
-![Brainwave - Landing page (mobile view)](https://media.licdn.com/dms/image/v2/D4E22AQG4DhOiGf_BVA/feedshare-shrink_800/feedshare-shrink_800/0/1724009975706?e=1726704000&v=beta&t=-jinZ-biAHAVkIbKT6XUA4b_Fj0NwoBORwayYctMXQQ)
 ![Brainwave - Pricing section](https://media.licdn.com/dms/image/v2/D4E22AQGnY-miF9OkMg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724009976577?e=1726704000&v=beta&t=ldxqSYEqxXI08GerKeTXDXTHIODhNscbYSpkGnnRYx8)
+
+### Responsive Design
+
+![Brainwave - Landing page (mobile view)](https://media.licdn.com/dms/image/v2/D4E22AQG4DhOiGf_BVA/feedshare-shrink_800/feedshare-shrink_800/0/1724009975706?e=1726704000&v=beta&t=-jinZ-biAHAVkIbKT6XUA4b_Fj0NwoBORwayYctMXQQ)
 
 ## Features
 
